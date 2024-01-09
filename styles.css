@@ -1,0 +1,223 @@
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #0e0606;
+}
+
+/* Nav Bar */
+header {
+    background-color: #010b16;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 32px;
+    font-weight: bold; /* Add this line to make it bold */
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #5a5cf3;
+}
+
+/* Banner */
+.banner {
+    background-image: url('https://media.timeout.com/images/105895663/750/422/image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form input[type="text"],
+.form input[type="date"] {
+    padding: 20px; /* Adjust the padding to control the height */
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure it doesn't exceed its container's width */
+}
+
+.book {
+    background-color: #2b7dd4;
+    color: #fff;
+    padding: 20px 28px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.book:hover {
+    background-color: #0056b3;
+}
+
+/* Services */
+.services {
+    background-color: #fff;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Places */
+.places {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.places-text h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.card .cost {
+    font-size: 24px;
+    color: #333;
+}
+
+.card-box {
+    margin-top: 20px;
+}
+
+.card-box p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* About Us */
+.about {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0f0d0d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 24px

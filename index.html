@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Go Trip</title>
+</head>
+<body>
+    <header>
+        <div class="logo">GoTrip</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-text">
+            <h1>Travel the World!</h1>
+            <form class="form">
+                <input type="text" list="mylist" placeholder="Where would you like to go?">
+                <datalist id="mylist">
+                    <option>India</option>
+                    <option>Canada</option>
+                    <option>SouthKorea</option>
+                    <option>France</option>
+                    <option>Japan</option>
+                    <option>Switzerland</option>
+                    <option>London</option>
+                </datalist>
+                <input type="date" class="date">
+                <a href="#" class="book">Book</a>
+            </form>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHqDoWMCMeXID5q_F-huLTAXt3DARoDlHFA&usqp=CAU" alt="London">
+            <h2>London</h2>
+        </div>
+        <div class="service-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Pzp3uEGD8mAW_lEqwL8XXMKOt5ALYGLpwg4kzUeFL2mU395JiBJttjm88F1KBGpgST4&usqp=CAU" alt="Canada">
+            <h2>Canada</h2>
+        </div>
+        <div class="service-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsJSFvewBphCd0-gaP5jDukdNiNsEaaiOnYA&usqp=CAU" alt="India">
+            <h2>India</h2>
+        </div>
+        <div class="service-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP-KrGuT19vQIVNlJDk1EoG9ToTWD-PUUXHQ&usqp=CAU" alt="Japan">
+            <h2>Japan</h2>
+        </div>
+    </section>
+
+    <section class="places">
+        <div class="places-text">
+            <h2>Favourite Places</h2>
+        </div>
+        <div class="cards">
+            <!-- Repeat this card block for each place -->
+            <div class="card">
+                <div class="img-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnyrs190nom2dKOC-7ataazbTCEJErT5eRQ&usqp=CAU" alt="Place Image">
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>Maldives</h2>
+                    <p class="cost">$1870 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 3 Days</p>
+                        <p class="location">✈ Destination, South Asia</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="faq.html">Frequently Asked Questions</a></li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i> info@mytravelguide.com</li>
+                <li>
+                    <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to toggle the menu when the menu button is clicked
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
